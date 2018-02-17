@@ -1,5 +1,5 @@
 ## Filters
-**Overview:** You will have a list of filters, and will receive an alert if a new spawn matches **any** of them. Within each individual filter you set, you will receive an alert if the spawn matches **all** the parameters – IV, CP, distance and such. You can **add**, **edit** and **remove** them. You can also enable/disable them temporarily without editing them (all filters are enabled at first) – see **Muting/Unmuting Filters**.
+You will have a list of filters, and will receive an alert if a new spawn matches **any** of them. Within each individual filter you set, you will receive an alert if the spawn matches **all** the parameters – IV, CP, distance and such. You can **add**, **edit** and **remove** them. You can also enable/disable them temporarily without editing them (all filters are enabled at first) – see **Muting/Unmuting Filters**.
 
 Contents:
 1. **Viewing Filters**
@@ -31,14 +31,15 @@ Shows a list of filters, sorted by name or by (Dex) number.
 !alert pokemon=dratini distance=1.5 iv=90
 !alert pokemon=all distance=2 iv=100 exclude=sentret,marill
 ```
-Adds a new filter. The first line is the general syntax; **these are the parameters:**.
+Adds a new filter. The first line is the general syntax (scroll by sliding your finger to see all of it!). **These are the parameters:**.
 
 * **`<name>`** [compulsory]: Here, you can specify a single Pokémon by name or a built-in group. These are the groups:
     * `all` – refers to all Pokémon.
     * `gen1`, `gen2`, `gen3` – refers to all Pokémon in a generation.
-    * `ultra common`, `common`, `uncommon`, `rare`, `ultra rare` – refers to rarity tiers of Pokémon as decided by the admins. To see what's in each ties, send Arceus the command `!rarity <tier-name>` – e.g. `!rarity ultra rare`.
+    * `ultra common`, `common`, `uncommon`, `rare`, `ultra rare` – refers to rarity tiers of Pokémon as decided by the admins. To see what's in each tier, send Arceus the command `!rarity <tier-name>` – e.g. `!rarity ultra rare`.
 
-* **`<distance>`** [compulsory]: A whole number specifying max distance from active location, interpreted in km.
+* **`<distance>`** [compulsory]: A whole number specifying max distance from active location, interpreted in km. **Note:**
+    * Don't type `km`; just the number will do!
 
 * **`<iv>`**, **`<cp>`**, **`<level>`** [optional]: Whole numbers specifying min IV (as a percentage), CP, level. **Note**:
     * You **cannot specify all 3 of these in a single filter**; between 0 and 2 of them is fine.
