@@ -40,7 +40,7 @@ Adds a new filter. The first line is the general syntax (scroll by sliding your 
     * `gen1`, `gen2`, `gen3` – refers to all Pokémon in a generation.
     * `ultra common`, `common`, `uncommon`, `rare`, `ultra rare` – refers to rarity tiers of Pokémon as decided by the admins. To see what's in each tier, send Arceus the command `!rarity <tier-name>` – e.g. `!rarity ultra rare`.
 
-* **`<distance>`** [compulsory]: A whole number specifying max distance from active location, interpreted in km. **Note:**
+* **`<distance>`** [compulsory]: A decimal number specifying max distance from active location, interpreted in km. **Note:**
     * Don't type `km`; just the number will do!
 
 * **`<iv>`**, **`<cp>`**, **`<level>`** [optional]: Whole numbers specifying min IV (as a percentage), CP, level. **Note**:
