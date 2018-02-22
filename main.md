@@ -8,3 +8,13 @@ Post the command `!alert` in the #bot-commands channel in the PoGoLondon Discord
 There are two parts: your **location**, and your **filters** – i.e. Pokémon names/groups, (minimum) IV/CP/levels, and distances. If a Pokémon spawns matching one of your filters, *within the specified distance of your location*, you will receive the alert! Here is a page for each, explaining how to set it up.
 * [Location](location.md)
 * [Filters](filters.md)
+
+### To silence Arceus
+In case of emergency, just remember the following command:
+```
+!alert mute all
+```
+and its antidote!
+```
+!alert unmute all
+```

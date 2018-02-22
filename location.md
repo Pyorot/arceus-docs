@@ -2,9 +2,9 @@
 You can store a list of locations to switch between (**add** and **remove**), but will have only one active location at a time (chosen by **set**ting). You can switch your active location as you wish, but you must type the command; there is no tracking.
 
 Contents:
-1. **Viewing Locations**
-2. **Adding/Removing Locations**
-3. **Setting/Unsetting Locations**
+1. [**Viewing Locations**](#1-viewing-locations)
+2. [**Adding/Removing Locations**](#2-addingremoving-locations)
+3. [**Setting/Unsetting Locations**](#3-settingunsetting-locations)
 
 ---
 
