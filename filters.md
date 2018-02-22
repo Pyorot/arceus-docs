@@ -54,7 +54,8 @@ Adds a new filter. The first line is the general syntax (scroll by sliding your 
 
 Now, **note two general details:**
 * Though you may omit optional parameters, you must **stick to the order** of parameters as outlined above.
-* **Do not include spaces around any `=` sign**, and take care to include only one space between separate parameters (basically, delete any extraneous spaces :P).
+* Check there are **no spaces around any `=` sign**, and that you include only one space between separate parameters (basically, delete any extraneous spaces :P).
+
 ---
 
 ### 3. Editing Filters
