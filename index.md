@@ -1,4 +1,4 @@
-# Arceus (London) Simplified Manual
+# Home
 Use **Arceus** to have Pokémon alerts delivered to your Discord DMs, according to your customised settings.
 
 ### To start
